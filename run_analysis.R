@@ -132,8 +132,8 @@ humanActivityMeans <- humanActivity %>%
         summarise_all(funs(mean))
 
 
-# output to file "tidy_data.txt"
-write.table(humanActivityMeans, "tidy_data.txt", row.names = FALSE, 
+# output to file "tidydata.txt"
+write.table(humanActivityMeans, "tidydata.txt", row.names = FALSE, 
             quote = FALSE)
 
 
